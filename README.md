@@ -27,7 +27,7 @@ Requires Node.js 22 or newer.
 
 | Command | What it does |
 |---|---|
-| `npm test` | Runs the engine self-test and the page's import/state checks (`check-character-import.mjs`). |
+| `npm test` | Runs the page's import/state and simulation checks (`check-character-import.mjs`), plus the engine self-test when the config tables are available (see Game data). |
 | `npm run build` | Regenerates the engine and data blocks of `ro3-damage-sim.html` (needs the config tables, see below). |
 | `node check-export-character.mjs --client <Client folder>` | Compiles and checks the character exporter against the game DLLs. |
 | `node ro3-rates-inspector.mjs` | Prints drop, card, pet hatching and lottery rates. |

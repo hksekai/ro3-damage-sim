@@ -3812,6 +3812,11 @@ if (isMain) {
     else if (a === '--data-dir' && args[i + 1]) opts.dataDir = args[++i];
   }
 
+  if (opts.selfTest && !fs.existsSync(opts.dataDir || DEFAULT_CONFIG_DIR)) {
+    // ponytail: the self-test reads rows the page does not embed, so without the config export it is skipped, not run on partial data.
+    console.log(`[SKIP] Engine self-test needs the config tables: set RO3_CONFIG_DIR (not found: ${opts.dataDir || DEFAULT_CONFIG_DIR}).`);
+    process.exit(0);
+  }
   if (opts.selfTest) {
     runSelfTest(new Ro3DataStore(opts.dataDir || DEFAULT_CONFIG_DIR));
     console.log('[PASS] All RO3 damage pipeline & stat optimizer self-tests passed.');
