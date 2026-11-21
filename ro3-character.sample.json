@@ -1,0 +1,1525 @@
+{
+ "format": "ro3-character/1",
+ "exportedAt": "2026-01-01T00:00:00.0000000Z",
+ "build": "synthetic test fixture",
+ "enums": {
+  "enum_CardType": {
+   "Normal": 0,
+   "Flash": 1,
+   "Gray": 2
+  }
+ },
+ "assets": {
+  "PlayerBasicInfo": {
+   "career": 3400,
+   "level": 74,
+   "jobLevel": 50
+  },
+  "ProfessionInfo": {
+   "planToProfessionId": {
+    "0": 305
+   }
+  },
+  "PlayerAttrSumPoint": {
+   "curPlanIndex": 0,
+   "allPlanBaseProperty": {
+    "0": {
+     "baseProperty": {
+      "1": 1,
+      "2": 34,
+      "3": 1,
+      "4": 1,
+      "5": 92,
+      "6": 50
+     },
+     "skillGenre": 3400,
+     "attrPoints": 0,
+     "usedAttrPoints": 596
+    }
+   }
+  },
+  "RoleAllProperty": {
+   "BaseAttributeInfo": {
+    "1": 3,
+    "2": 36,
+    "3": 2,
+    "4": 1,
+    "5": 115,
+    "6": 53
+   },
+   "BasicAttributeInfo": {
+    "101": 88000,
+    "103": 2500,
+    "109": 140,
+    "111": 1500,
+    "1031": 0.23
+   }
+  },
+  "EquipGearDataMap": {
+   "1": {
+    "iItemId": 2110660,
+    "iInstanceId": 1,
+    "kEquipInfo": {
+     "bIsAppraised": true,
+     "kPropertyList": {
+      "1": {
+       "iId": 101,
+       "iValue": 4332
+      },
+      "2": {
+       "iId": 103,
+       "iValue": 541
+      },
+      "3": {
+       "iId": 104,
+       "iValue": 541
+      }
+     },
+     "kEntryList": {
+      "1": {
+       "iId": 5,
+       "iValue": 18
+      }
+     },
+     "kSpecialList": {
+      "1": {
+       "iId": 10010604,
+       "iValue": 0
+      },
+      "2": {
+       "iId": 10020607,
+       "iValue": 0
+      }
+     },
+     "kEnchantList": {
+      "1": {
+       "iId": 1,
+       "kEnchantAttrInfo": {}
+      }
+     }
+    }
+   },
+   "2": {
+    "iItemId": 2110660,
+    "iInstanceId": 1,
+    "kEquipInfo": {
+     "bIsAppraised": true,
+     "kPropertyList": {
+      "1": {
+       "iId": 101,
+       "iValue": 4332
+      },
+      "2": {
+       "iId": 103,
+       "iValue": 541
+      },
+      "3": {
+       "iId": 104,
+       "iValue": 541
+      }
+     },
+     "kEntryList": {
+      "1": {
+       "iId": 5,
+       "iValue": 18
+      }
+     },
+     "kSpecialList": {
+      "1": {
+       "iId": 10010604,
+       "iValue": 0
+      },
+      "2": {
+       "iId": 10020607,
+       "iValue": 0
+      }
+     },
+     "kEnchantList": {
+      "1": {
+       "iId": 1,
+       "kEnchantAttrInfo": {}
+      }
+     }
+    }
+   },
+   "3": {
+    "iItemId": 2550660,
+    "kEquipInfo": {
+     "kPropertyList": {
+      "1": {
+       "iId": 101,
+       "iValue": 12000
+      },
+      "2": {
+       "iId": 105,
+       "iValue": 170
+      },
+      "3": {
+       "iId": 106,
+       "iValue": 170
+      }
+     }
+    }
+   },
+   "4": {
+    "iItemId": 2600660,
+    "kEquipInfo": {
+     "kPropertyList": {
+      "1": {
+       "iId": 101,
+       "iValue": 9000
+      },
+      "2": {
+       "iId": 105,
+       "iValue": 250
+      }
+     }
+    }
+   },
+   "5": {
+    "iItemId": 2650660,
+    "kEquipInfo": {
+     "kPropertyList": {
+      "1": {
+       "iId": 101,
+       "iValue": 9000
+      },
+      "2": {
+       "iId": 106,
+       "iValue": 250
+      }
+     }
+    }
+   },
+   "6": {
+    "iItemId": 2700660,
+    "kEquipInfo": {
+     "kPropertyList": {
+      "1": {
+       "iId": 103,
+       "iValue": 170
+      },
+      "2": {
+       "iId": 104,
+       "iValue": 170
+      }
+     }
+    }
+   },
+   "7": {
+    "iItemId": 9999999
+   }
+  },
+  "EquipStrengthenData": {
+   "iRefineEffectLevel": 9,
+   "iStrengthenEffectLevel": 40,
+   "kEquipStrengthenGridData": {
+    "1": {
+     "iRefineLevel": 12,
+     "iStrengthenLevel": 60
+    },
+    "2": {
+     "iRefineLevel": 11,
+     "iStrengthenLevel": 55
+    },
+    "3": {
+     "iRefineLevel": 10,
+     "iStrengthenLevel": 50
+    },
+    "4": {
+     "iRefineLevel": 9,
+     "iStrengthenLevel": 45
+    },
+    "5": {
+     "iRefineLevel": 9,
+     "iStrengthenLevel": 40
+    },
+    "6": {
+     "iRefineLevel": 10,
+     "iStrengthenLevel": 50
+    },
+    "7": {
+     "iRefineLevel": 10,
+     "iStrengthenLevel": 50
+    }
+   }
+  },
+  "EquipGridCardMap": {
+   "currentPlan": 0,
+   "storagePlans": {
+    "0": {
+     "cardInfo": {
+      "1": {
+       "cardSlotInfo": {
+        "1": {
+         "ItemId": 1440104,
+         "StarLevel": 3,
+         "treasured": 1
+        },
+        "2": {
+         "ItemId": 1420100,
+         "StarLevel": 2,
+         "treasured": 0
+        },
+        "3": {
+         "ItemId": 1440107,
+         "StarLevel": 3,
+         "treasured": 0
+        }
+       }
+      },
+      "6": {
+       "cardSlotInfo": {
+        "1": {
+         "ItemId": 1420600,
+         "StarLevel": 1,
+         "treasured": 0
+        }
+       }
+      }
+     }
+    }
+   },
+   "storagePack": {
+    "0": {
+     "cardInfo": {
+      "1": {
+       "1": {
+        "iItemId": 1440104,
+        "kCardInfo": {
+         "iCardStar": 3,
+         "iCardLevel": 14,
+         "iCardType": 1
+        }
+       },
+       "2": {
+        "iItemId": 1420100,
+        "kCardInfo": {
+         "iCardStar": 2,
+         "iCardLevel": 7,
+         "iCardType": 0
+        }
+       }
+      },
+      "6": {
+       "cardSlotInfo": {
+        "1": {
+         "iItemId": 1420600,
+         "kCardInfo": {
+          "iCardStar": 1,
+          "iCardLevel": 5,
+          "iCardType": 0
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "PetInfo": {
+   "m_kPetList": {
+    "1": {
+     "m_iPetId": 10001,
+     "m_iLevel": 60,
+     "m_iStar": 3,
+     "m_iStarProgress": 1
+    },
+    "2": {
+     "m_iPetId": 11001,
+     "m_iLevel": 55,
+     "m_iStar": 2,
+     "m_iStarProgress": 0
+    },
+    "3": {
+     "m_iPetId": 20001,
+     "m_iLevel": 50,
+     "m_iStar": 1,
+     "m_iStarProgress": 0
+    }
+   }
+  },
+  "PetSetUpInfo": {
+   "currentPlan": 0,
+   "setupPlans": {
+    "0": {
+     "setUpPets": {
+      "1": 10001,
+      "2": 11001
+     },
+     "supportPets": {
+      "1": 20001
+     }
+    }
+   }
+  },
+  "SeasonTalentData": {
+   "10101001": {
+    "talentId": 10101001,
+    "currentLevel": 3,
+    "isActivated": true
+   },
+   "10101002": {
+    "talentId": 10101002,
+    "currentLevel": 3,
+    "isActivated": true
+   },
+   "10101003": {
+    "talentId": 10101003,
+    "currentLevel": 3,
+    "isActivated": true
+   },
+   "10101004": {
+    "talentId": 10101004,
+    "currentLevel": 3,
+    "isActivated": true
+   },
+   "10101005": {
+    "talentId": 10101005,
+    "currentLevel": 3,
+    "isActivated": true
+   },
+   "10101006": {
+    "talentId": 10101006,
+    "currentLevel": 3,
+    "isActivated": true
+   },
+   "10101007": {
+    "talentId": 10101007,
+    "currentLevel": 3,
+    "isActivated": true
+   },
+   "10101008": {
+    "talentId": 10101008,
+    "currentLevel": 3,
+    "isActivated": true
+   },
+   "10101009": {
+    "talentId": 10101009,
+    "currentLevel": 4,
+    "isActivated": true
+   },
+   "10101010": {
+    "talentId": 10101010,
+    "currentLevel": 4,
+    "isActivated": true
+   },
+   "10101011": {
+    "talentId": 10101011,
+    "currentLevel": 4,
+    "isActivated": true
+   },
+   "10101012": {
+    "talentId": 10101012,
+    "currentLevel": 4,
+    "isActivated": true
+   },
+   "10102001": {
+    "talentId": 10102001,
+    "currentLevel": 10,
+    "isActivated": true
+   },
+   "10102002": {
+    "talentId": 10102002,
+    "currentLevel": 10,
+    "isActivated": true
+   },
+   "10102003": {
+    "talentId": 10102003,
+    "currentLevel": 1,
+    "isActivated": true
+   },
+   "10102004": {
+    "talentId": 10102004,
+    "currentLevel": 10,
+    "isActivated": true
+   },
+   "10102005": {
+    "talentId": 10102005,
+    "currentLevel": 10,
+    "isActivated": true
+   },
+   "10102006": {
+    "talentId": 10102006,
+    "currentLevel": 1,
+    "isActivated": true
+   },
+   "10102007": {
+    "talentId": 10102007,
+    "currentLevel": 10,
+    "isActivated": true
+   },
+   "10102008": {
+    "talentId": 10102008,
+    "currentLevel": 6,
+    "isActivated": true
+   },
+   "10102009": {
+    "talentId": 10102009,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10102010": {
+    "talentId": 10102010,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10102011": {
+    "talentId": 10102011,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10102101": {
+    "talentId": 10102101,
+    "currentLevel": 1,
+    "isActivated": true
+   },
+   "10102102": {
+    "talentId": 10102102,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10102103": {
+    "talentId": 10102103,
+    "currentLevel": 1,
+    "isActivated": true
+   },
+   "10102104": {
+    "talentId": 10102104,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10102105": {
+    "talentId": 10102105,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10102106": {
+    "talentId": 10102106,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10102107": {
+    "talentId": 10102107,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10102108": {
+    "talentId": 10102108,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10102109": {
+    "talentId": 10102109,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10102110": {
+    "talentId": 10102110,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10102111": {
+    "talentId": 10102111,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10102112": {
+    "talentId": 10102112,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10102113": {
+    "talentId": 10102113,
+    "currentLevel": 1,
+    "isActivated": true
+   },
+   "10102114": {
+    "talentId": 10102114,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10102115": {
+    "talentId": 10102115,
+    "currentLevel": 1,
+    "isActivated": true
+   },
+   "10102116": {
+    "talentId": 10102116,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10102117": {
+    "talentId": 10102117,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10102118": {
+    "talentId": 10102118,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10102119": {
+    "talentId": 10102119,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10102120": {
+    "talentId": 10102120,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10102121": {
+    "talentId": 10102121,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10102122": {
+    "talentId": 10102122,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10102123": {
+    "talentId": 10102123,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10102124": {
+    "talentId": 10102124,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10102125": {
+    "talentId": 10102125,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10102126": {
+    "talentId": 10102126,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10102127": {
+    "talentId": 10102127,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10102128": {
+    "talentId": 10102128,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10102129": {
+    "talentId": 10102129,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10102130": {
+    "talentId": 10102130,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10102131": {
+    "talentId": 10102131,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10102132": {
+    "talentId": 10102132,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10102133": {
+    "talentId": 10102133,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10102134": {
+    "talentId": 10102134,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10102135": {
+    "talentId": 10102135,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10102136": {
+    "talentId": 10102136,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10103001": {
+    "talentId": 10103001,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10103002": {
+    "talentId": 10103002,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10103003": {
+    "talentId": 10103003,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10103004": {
+    "talentId": 10103004,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10103005": {
+    "talentId": 10103005,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10103006": {
+    "talentId": 10103006,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10103007": {
+    "talentId": 10103007,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10103008": {
+    "talentId": 10103008,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10103009": {
+    "talentId": 10103009,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10103010": {
+    "talentId": 10103010,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10103011": {
+    "talentId": 10103011,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10103101": {
+    "talentId": 10103101,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10103102": {
+    "talentId": 10103102,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10103103": {
+    "talentId": 10103103,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10103104": {
+    "talentId": 10103104,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10103105": {
+    "talentId": 10103105,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10103106": {
+    "talentId": 10103106,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10103107": {
+    "talentId": 10103107,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10103108": {
+    "talentId": 10103108,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10103109": {
+    "talentId": 10103109,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10103110": {
+    "talentId": 10103110,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10103111": {
+    "talentId": 10103111,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10103112": {
+    "talentId": 10103112,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10104001": {
+    "talentId": 10104001,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10104002": {
+    "talentId": 10104002,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10104003": {
+    "talentId": 10104003,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10104004": {
+    "talentId": 10104004,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10104005": {
+    "talentId": 10104005,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10104006": {
+    "talentId": 10104006,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10104007": {
+    "talentId": 10104007,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10104008": {
+    "talentId": 10104008,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10104009": {
+    "talentId": 10104009,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10104010": {
+    "talentId": 10104010,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10104011": {
+    "talentId": 10104011,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10104101": {
+    "talentId": 10104101,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10104102": {
+    "talentId": 10104102,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10104103": {
+    "talentId": 10104103,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10104104": {
+    "talentId": 10104104,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10104105": {
+    "talentId": 10104105,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10104106": {
+    "talentId": 10104106,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10104107": {
+    "talentId": 10104107,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10104108": {
+    "talentId": 10104108,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10104109": {
+    "talentId": 10104109,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10104110": {
+    "talentId": 10104110,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10104111": {
+    "talentId": 10104111,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10104112": {
+    "talentId": 10104112,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10105001": {
+    "talentId": 10105001,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10105002": {
+    "talentId": 10105002,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10105003": {
+    "talentId": 10105003,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10105004": {
+    "talentId": 10105004,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10105005": {
+    "talentId": 10105005,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10105006": {
+    "talentId": 10105006,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10105007": {
+    "talentId": 10105007,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10105008": {
+    "talentId": 10105008,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10105009": {
+    "talentId": 10105009,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10105010": {
+    "talentId": 10105010,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10105011": {
+    "talentId": 10105011,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10105012": {
+    "talentId": 10105012,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10105013": {
+    "talentId": 10105013,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10105014": {
+    "talentId": 10105014,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10105015": {
+    "talentId": 10105015,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10105016": {
+    "talentId": 10105016,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10105017": {
+    "talentId": 10105017,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10105018": {
+    "talentId": 10105018,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10106001": {
+    "talentId": 10106001,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10106002": {
+    "talentId": 10106002,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10106003": {
+    "talentId": 10106003,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10106004": {
+    "talentId": 10106004,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10106005": {
+    "talentId": 10106005,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10106006": {
+    "talentId": 10106006,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10106007": {
+    "talentId": 10106007,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10106008": {
+    "talentId": 10106008,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10106009": {
+    "talentId": 10106009,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10106010": {
+    "talentId": 10106010,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10106011": {
+    "talentId": 10106011,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10106012": {
+    "talentId": 10106012,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10106013": {
+    "talentId": 10106013,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10106014": {
+    "talentId": 10106014,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10106015": {
+    "talentId": 10106015,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10106016": {
+    "talentId": 10106016,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10106017": {
+    "talentId": 10106017,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10106018": {
+    "talentId": 10106018,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10107001": {
+    "talentId": 10107001,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10107002": {
+    "talentId": 10107002,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10107003": {
+    "talentId": 10107003,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10107004": {
+    "talentId": 10107004,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10107005": {
+    "talentId": 10107005,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10107006": {
+    "talentId": 10107006,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10107007": {
+    "talentId": 10107007,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10107008": {
+    "talentId": 10107008,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10107009": {
+    "talentId": 10107009,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10107010": {
+    "talentId": 10107010,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10107011": {
+    "talentId": 10107011,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10107012": {
+    "talentId": 10107012,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10107013": {
+    "talentId": 10107013,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10107014": {
+    "talentId": 10107014,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10107015": {
+    "talentId": 10107015,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10107016": {
+    "talentId": 10107016,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10107017": {
+    "talentId": 10107017,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10107018": {
+    "talentId": 10107018,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10108001": {
+    "talentId": 10108001,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10108002": {
+    "talentId": 10108002,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10108003": {
+    "talentId": 10108003,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10108004": {
+    "talentId": 10108004,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10108005": {
+    "talentId": 10108005,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10108006": {
+    "talentId": 10108006,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10108007": {
+    "talentId": 10108007,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10108008": {
+    "talentId": 10108008,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10108009": {
+    "talentId": 10108009,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10108010": {
+    "talentId": 10108010,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10108011": {
+    "talentId": 10108011,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10108012": {
+    "talentId": 10108012,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10108013": {
+    "talentId": 10108013,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10108014": {
+    "talentId": 10108014,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10108015": {
+    "talentId": 10108015,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10108016": {
+    "talentId": 10108016,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10108017": {
+    "talentId": 10108017,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10108018": {
+    "talentId": 10108018,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10109001": {
+    "talentId": 10109001,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10109002": {
+    "talentId": 10109002,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10109003": {
+    "talentId": 10109003,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10109004": {
+    "talentId": 10109004,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10109005": {
+    "talentId": 10109005,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10109006": {
+    "talentId": 10109006,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10109007": {
+    "talentId": 10109007,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10109008": {
+    "talentId": 10109008,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10109009": {
+    "talentId": 10109009,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10109010": {
+    "talentId": 10109010,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10109011": {
+    "talentId": 10109011,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10109012": {
+    "talentId": 10109012,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10109013": {
+    "talentId": 10109013,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10109014": {
+    "talentId": 10109014,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10109015": {
+    "talentId": 10109015,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10109016": {
+    "talentId": 10109016,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10109017": {
+    "talentId": 10109017,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10109018": {
+    "talentId": 10109018,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10110001": {
+    "talentId": 10110001,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10110002": {
+    "talentId": 10110002,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10110003": {
+    "talentId": 10110003,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10110004": {
+    "talentId": 10110004,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10110005": {
+    "talentId": 10110005,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10110006": {
+    "talentId": 10110006,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10110007": {
+    "talentId": 10110007,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10110008": {
+    "talentId": 10110008,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10110009": {
+    "talentId": 10110009,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10110010": {
+    "talentId": 10110010,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10110011": {
+    "talentId": 10110011,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10110012": {
+    "talentId": 10110012,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10110013": {
+    "talentId": 10110013,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10110014": {
+    "talentId": 10110014,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10110015": {
+    "talentId": 10110015,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10110016": {
+    "talentId": 10110016,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10110017": {
+    "talentId": 10110017,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10110018": {
+    "talentId": 10110018,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10111001": {
+    "talentId": 10111001,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10111002": {
+    "talentId": 10111002,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10111003": {
+    "talentId": 10111003,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10111004": {
+    "talentId": 10111004,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10111005": {
+    "talentId": 10111005,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10111006": {
+    "talentId": 10111006,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10111007": {
+    "talentId": 10111007,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10111008": {
+    "talentId": 10111008,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10111009": {
+    "talentId": 10111009,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10111010": {
+    "talentId": 10111010,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10111011": {
+    "talentId": 10111011,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10111012": {
+    "talentId": 10111012,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10111013": {
+    "talentId": 10111013,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10111014": {
+    "talentId": 10111014,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10111015": {
+    "talentId": 10111015,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10111016": {
+    "talentId": 10111016,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10111017": {
+    "talentId": 10111017,
+    "currentLevel": 0,
+    "isActivated": true
+   },
+   "10111018": {
+    "talentId": 10111018,
+    "currentLevel": 0,
+    "isActivated": true
+   }
+  },
+  "ServerAllSkills": {
+   "13302": 5,
+   "13311": 4,
+   "13322": 3,
+   "99999": 3,
+   "1330705": 5
+  }
+ },
+ "missing": [],
+ "errors": [],
+ "truncated": 0,
+ "_note": "Synthetic sample for the planner's Import character window: invented numbers on real item, card, pet and talent ids. It is not from a real character."
+}

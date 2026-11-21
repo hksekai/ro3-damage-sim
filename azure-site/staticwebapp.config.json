@@ -1,0 +1,15 @@
+{
+  "routes": [
+    {
+      "route": "/ro3-damage-sim.html",
+      "rewrite": "/index.html"
+    }
+  ],
+  "globalHeaders": {
+    "Cache-Control": "no-cache",
+    "Content-Security-Policy": "default-src 'none'; script-src 'self' 'unsafe-inline'; style-src 'unsafe-inline'; img-src 'self' https://wiki.ro3.cc data:; connect-src 'self'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'",
+    "Referrer-Policy": "no-referrer",
+    "X-Content-Type-Options": "nosniff",
+    "X-Robots-Tag": "noindex, nofollow"
+  }
+}

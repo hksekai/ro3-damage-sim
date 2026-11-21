@@ -1,0 +1,24 @@
+# This folder also holds the game launcher and client: only the simulator files below are tracked.
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/package.json
+!/ro3-damage-sim.html
+!/ro3-damage-optimizer.mjs
+!/build-ro3-sim.mjs
+!/ro3-skill-timing.json
+!/extract-skill-timing.mjs
+!/check-character-import.mjs
+!/check-export-character.mjs
+!/ro3-character.sample.json
+!/ro3-export-character.cs
+!/unity-explorer-snippets.cs
+!/ro3-rates-inspector.mjs
+!/catalog-items.md
+!/catalog-items.tsv
+!/catalog-skills.md
+!/catalog-skills.tsv
+!/deploy-azure.ps1
+!/azure-site/
+/azure-site/index.html

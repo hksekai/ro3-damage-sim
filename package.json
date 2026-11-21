@@ -1,0 +1,13 @@
+{
+  "name": "ro3-damage-sim",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build-ro3-sim.mjs",
+    "test": "node ro3-damage-optimizer.mjs --self-test && node check-character-import.mjs",
+    "serve": "npx --yes http-server -p 8080 -c-1 ."
+  },
+  "devDependencies": {
+    "wasmoon": "1.16.0"
+  }
+}
